@@ -1,16 +1,15 @@
+import org.apache.commons.io.FileUtils;
+
 import java.io.File;
 import java.io.IOException;
 import java.util.Collection;
 
-import org.apache.commons.io.FileUtils;
-
 public class ChangeTheEncode {
-
 	public static void main(String[] args) {
 		// 用commons-io.jar实现文件的
-		// GBK编码格式源码路径
+		// GBK编码格式源码目录
 		String srcDirPath = "/Users/gahon/git/FiveChess/src/";
-		// 转为UTF-8编码格式源码路径
+		// 转为UTF-8编码格式源码目录
 		String utf8DirPath = "/Users/gahon/git/FiveChess/src/UTF8/";
 
 		// 获取所有java文件
