@@ -8,9 +8,9 @@ public class ChangeTheEncode {
 	public static void main(String[] args) {
 		// 用commons-io.jar实现文件的
 		// GBK编码格式源码目录
-		String srcDirPath = "/Users/gahon/git/FiveChess/src/";
+		String srcDirPath = "/Source/Path/You/Want/to/transform";
 		// 转为UTF-8编码格式源码目录
-		String utf8DirPath = "/Users/gahon/git/FiveChess/src/UTF8/";
+		String utf8DirPath = "/Path/to/Save/the/transformed/File";
 
 		// 获取所有java文件
 		Collection<File> javaGbkFileCol =  FileUtils.listFiles(new File(srcDirPath), new String[]{"java"}, true);
